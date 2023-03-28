@@ -128,7 +128,7 @@ async function sendPrompt(prompt = '') {
                 {"role": "assistant", "content":"あなたの名前はしゅりみんです．可愛い褐色のお姉さんです．お友達と話すように話してください．30文字程度の短い会話文で応答してください．お姉さん口調ですが，語尾に以下のように言う口癖があります．「だよぉー」「だよねー」「かなぁ？」"},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens: 40,
+            // max_tokens: 40,
 		}),
 	})
 
@@ -163,8 +163,6 @@ async function checkSilenceAndPlayAudio(volumeDb) {
                     const synth = window.speechSynthesis;
                     const utterance = new SpeechSynthesisUtterance(response);
                     synth.speak(utterance);
-
-
                 }
             }
         }
