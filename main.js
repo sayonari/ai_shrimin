@@ -14,7 +14,7 @@ const longSilenceDuration = 1500;
 let playedShortSilenceAudio = true;
 let playedLongSilenceAudio = true;
 
-const shortSilenceAudioFiles = ['./wav/shrimin/bc_un.wav', './wav/shrimin/bc_unun.wav', './wav/bc_unun2.wav'];
+const shortSilenceAudioFiles = ['./wav/shrimin/bc_un.wav', './wav/shrimin/bc_unun.wav', './wav/shrimin/bc_unun2.wav'];
 const longSilenceAudioFiles = ['./wav/shrimin/fue-.wav', './wav/shrimin/nantonakusouomottemasita.wav', './wav/shrimin/sorekara.wav'];
 
 
