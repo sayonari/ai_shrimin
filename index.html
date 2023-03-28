@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+ <!-- head -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>しゅりみんAIちゃんとの対話（音声認識と音量監視）</title>
+</head>
+
+<!-- body -->
+<body>
+    <center>
+        <h1>しゅりみんAIちゃんとの対話（音声認識と音量監視）</h1>
+    </center>
+    <table width="100%"><tr>
+        <td width="10%">
+            <center><a href="https://www.twitch.tv/shrimin">Twitch: shrimin</a></center>
+            <!-- <img src="./img/shrimin.png"> -->
+            <iframe width="300" height="500" src="https://www.youtube.com/embed/fjADJsajxF0?autoplay=1&loop=1&playlist=fjADJsajxF0&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </td>
+        <td>
+            
+            <button id="start-button">開始</button>
+            <button id="stop-button" disabled>停止</button>
+            <div>
+                <h2>音声認識結果</h2>
+                <p id="recognition-result"></p>
+            </div>
+
+            <div>
+                <h2>音量</h2>
+                <p id="volume-level"></p>
+            </div>
+            <p id="volume-level"></p>
+            <div style="height: 20px; background-color: lightgray; width: 100%">
+                <div id="volume-bar" style="height: 20px; background-color: blue; width: 0%;"></div>
+            </div>
+            <h2>ポーズ長</h2>
+            <p id="pause-duration"></p>
+            <script src="main.js"></script>
+        </td>
+    </tr></table>
+</body>
+</html>
